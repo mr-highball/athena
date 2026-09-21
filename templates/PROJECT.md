@@ -21,6 +21,7 @@ again for choices already supplied by the current task.
 | Toolchain profile | Link to adopted TOOLCHAIN record |
 | Publishing | None / artifacts / Pages, with branch and stage path |
 | Work profile | Lean unless overridden |
+| Goal and task records | Canonical milestones, local TASKFLOW.MD, TODO/DONE and work record paths |
 | Exceptions | Scope, reason, evidence and revisit condition |
 
 ## Setup questions
@@ -34,6 +35,11 @@ changes only if the selected recipe requires them and authority is not already
 established. Follow [local bootstrap](../docs/local-environment.md#initial-decisions).
 
 ## Acceptance
+
+Define the full intended end state and explicit scope boundaries in the
+[north-star milestones](MILESTONES.md). Use [Task flow](../docs/task-flow.md) to
+map remaining requirements to tasks and accepted evidence. The next small outcome
+advances that destination; it does not replace the agreed full scope.
 
 Name the smallest runnable outcome, required invariants and supported execution
 targets. Use [validation](../docs/validation.md), not an inherited full-product

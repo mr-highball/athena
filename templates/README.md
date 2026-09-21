@@ -10,6 +10,9 @@
 | [Agent entry point](AGENTS.template.md) | Minimal instructions routed to shared standards |
 | [Toolchain record](TOOLCHAIN.md) | Portable pins and separate local readiness evidence |
 | [Work record](WORK.md) | Scope, checks, deferrals and handoff |
+| [North stars and milestones](MILESTONES.md) | Intended outcomes, evidence-based assessment and remaining scope |
+| [Local task flow](TASKFLOW.MD) | Project adoption, TODO/DONE layout and allocation index |
+| [Task definition](TASK.md) | Stable naming, acceptance criteria and prerequisite links |
 | [Native FPC example](native-fpc.md) | Compilable fixture and shell commands |
 | [GitHub Actions](github-actions.md) | Native workflow and optional Pages extension |
 | [CGE build](cge-build.md) | Pinned engine and target-aware commands |
@@ -45,6 +48,15 @@ Public action refs were resolved to their pinned commits; image tags remain
 explicit candidates until an adopter records and probes a digest.
 
 ## Delivery record
+
+Task flow documentation checked on 2026-09-20:
+
+- All 278 local file and section links across 30 Markdown documents resolve.
+  Reviewed index reachability and outbound navigation for the four new pages.
+- Reviewed the task lifecycle, allocation rules, template consistency and added
+  text for project-specific or private details; the staged whitespace check passes.
+- These are adoption templates. No project workflow or hosted job was executed;
+  executable examples were unchanged and were not rerun for this documentation edit.
 
 Checked on 2026-09-14:
 

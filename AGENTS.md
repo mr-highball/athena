@@ -13,6 +13,9 @@ Maintain this as a project-agnostic standards collection. Start at the
 - Use [Lean stewardship](docs/agent-stewardship.md#work-profiles) by default.
   This file does not authorize delegation. Do not spawn agents unless the current
   task explicitly authorizes it or another applicable instruction requires it.
+- Apply [Task flow](docs/task-flow.md) as core design governance: connect work
+  to north-star outcomes, follow prerequisite tasks, record discovered gaps and
+  update milestones from accepted evidence when tasks move to DONE.
 - Do not copy private paths, accounts, forks, transcripts, usage history or
   personal configuration into examples. Preserve existing legal notices.
 - Link requirements to their rationale and examples. Check local paths,
