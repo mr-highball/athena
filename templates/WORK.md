@@ -6,6 +6,7 @@
 
 - Objective and observable result:
 - Owning north star, milestone and current task link:
+- Current batch's acceptance criterion, deliverable and stop/switch condition:
 - Prerequisite chain and task to return to:
 - Relevant standards and project profile:
 - Preserved state and hard invariants:
@@ -29,6 +30,20 @@ credit changes, or explain why useful intermediate work earns no credit yet.
 Discovered work belongs in task files; this record links them without becoming
 a second active backlog.
 
+## Progress checkpoint
+
+- Criteria closed by this batch, with evidence:
+- Criteria still open and exact missing evidence:
+- Consecutive batches without a criterion closing, including earlier handoffs:
+- If the shared checkpoint is reached: results, reason acceptance did not advance,
+  changed next action and bounded completion checks:
+- If a task is split: original-to-new criterion mapping, prerequisite changes and
+  unchanged total credit allocation:
+
+Apply the [shared checkpoint](../docs/task-flow.md#task-size-and-progress-checkpoints)
+before another investigation batch. A successful diagnostic is not automatically
+a closed criterion, and a new handoff does not reset the count.
+
 ## Deferral ledger
 
 | Stable item ID | Source/policy fingerprint | Status | Reason | Next condition |
@@ -43,6 +58,7 @@ See [catalog lessons](../docs/lessons.md#collection-and-usability).
 
 - Current branch/revision and working-tree changes:
 - Completed result and commands already run:
+- Acceptance criteria closed/open, checkpoint count and current stop point:
 - Toolchain profile and ignored local readiness-record location:
 - Accepted user decisions:
 - Blocker or evidence gap:
