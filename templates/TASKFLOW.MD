@@ -15,7 +15,8 @@ Replace the path placeholders for the project's chosen layout.
 ## Governing standard
 
 Apply the linked shared Task flow standard for naming, acceptance templates,
-prerequisite traversal, gap handling, TODO-to-DONE moves and percentage accounting.
+prerequisite traversal, task-size checkpoints, scope-preserving splits, gap handling,
+TODO-to-DONE moves and percentage accounting.
 
 ## Local records
 
@@ -32,6 +33,8 @@ prerequisite traversal, gap handling, TODO-to-DONE moves and percentage accounti
 - Review boundary: <explicit planning-only stop, if requested; otherwise authorized execution>.
 - Completion baseline and allocations: <milestone scorecard and task index links>.
 - Meaningful milestone threshold: <agreed value or not specified>.
+- Batch/checkpoint record: <work-record section tracking acceptance criteria,
+  deliverable, stop condition, consecutive batches without closure and reassessment>.
 - Exceptions: <none, or scope, reason, evidence and revisit condition>.
 ```
 
@@ -41,3 +44,6 @@ Create `TODO/DONE/README.md` linking back to the catalog and listing accepted
 tasks with dated evidence. It may initially state that no tasks are completed.
 Keep this catalog as the allocation ledger; other records reference it. Each task
 also states its own allocation, and both must agree when an allocation changes.
+Use the shared [progress checkpoint](../docs/task-flow.md#task-size-and-progress-checkpoints)
+to reassess stalled work; keep the actual count and decision in the project's
+work record rather than copying a second policy into this local template.

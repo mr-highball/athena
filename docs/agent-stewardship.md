@@ -60,6 +60,12 @@ Default escalation point: after two unsuccessful attempts on the same cause,
 stop blind retries, summarize evidence and change the diagnostic approach.
 This is a local policy choice, not proof that the task is impossible.
 
+Also apply the required [task progress checkpoint](task-flow.md#task-size-and-progress-checkpoints)
+when two work batches close no acceptance criterion, including when individual
+diagnostics succeed. Preserve its count across agent handoffs; staffing changes
+do not justify restarting the same investigation. Task flow owns the reassessment,
+deliverable split and credit rules.
+
 ## Policy versus enforcement
 
 Markdown can guide behavior; it cannot enforce a provider quota, concurrency

@@ -110,6 +110,63 @@ hypothesis, evidence policy, bounded experiment budget and stop/switch condition
 Follow [stewardship](agent-stewardship.md#usage-and-waiting) when attempts repeatedly
 fail on the same cause. Keep successful baseline behavior available.
 
+## Task size and progress checkpoints
+
+Required: before each work batch, name the owning acceptance criterion, concrete
+deliverable, evidence needed to close that criterion, and stop or switch condition.
+A batch is a bounded implementation or investigation deliverable and its handoff,
+not an individual tool call. Prefer a usable API, integrated consumer, qualified
+reference packet or accepted result. A diagnostic needs a specific decision it
+will resolve; another report or tool is not itself progress toward acceptance.
+
+After **two consecutive batches without closing an acceptance criterion**, stop
+the investigation sequence and reassess before starting a third. Record the
+results, why acceptance did not advance, and the chosen next action in the work
+record and owning task:
+
+- Finish a bounded deliverable using existing evidence and tools; name its
+  remaining acceptance checks.
+- Split an oversized task into independently useful, verifiable deliverables,
+  following the scope and credit rules below.
+- Follow a concrete prerequisite or record an external blocker and its unblock
+  condition. Preserve failures and uncertainty rather than substituting a smaller
+  passing claim for the intended result.
+
+Track the count across turns, handoffs and context changes. Renaming a hypothesis,
+changing the tested sample, adding a diagnostic-only task or assigning a different
+helper does not reset the checkpoint. Reassessment must change the next action.
+A further experiment needs a materially different, evidence-backed decision path,
+a fixed budget and an explicit result that ends it. Apply the separate
+[same-cause retry limit](agent-stewardship.md#usage-and-waiting) as well; changing
+how a failed approach is described does not authorize indefinite variants.
+
+At every batch handoff record criteria closed, criteria still open, the consecutive
+batch count, the current stop point and the next deliverable. Reuse applicable
+validation; repeat it only after a meaningful change or a concrete evidence gap.
+Apply this checkpoint to work already underway as well as newly selected tasks.
+
+### Split by deliverable, preserving the goal
+
+Split at independently useful delivery boundaries, not by coding steps, agent
+assignments, tests or number of reports. An implemented importer and a qualified
+external dataset may be separate deliverables; a new plot and its summary normally
+are not. Do not invent historical tasks for capability already in the baseline.
+
+For each split, map **every original acceptance criterion** to its new owner or
+owners, retain the complete intended outcome and preserve true prerequisites.
+Keep shared work under one credit owner. Redistribute only the original unearned
+credit, record old and new allocations, and update task files, catalog, milestone
+mapping and dependency links in the same change. Downstream tasks must still
+require the complete original deliverable through those links.
+
+A completed portion may move to DONE only after all its criteria and required
+validation pass. Update milestones with only that accepted allocation. Unfinished
+portions remain explicit open tasks. The split itself earns nothing: do not
+weaken criteria, hide difficult cases, credit diagnostic activity or manufacture
+extra points merely to show more completed tasks. Distinct newly required scope
+follows [gap handling](#newly-discovered-work), then work returns to the current
+agreed deliverable.
+
 ## Newly discovered work
 
 When a gap requires a separate task, stop expanding the current scope, create

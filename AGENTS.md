@@ -16,6 +16,9 @@ Maintain this as a project-agnostic standards collection. Start at the
 - Apply [Task flow](docs/task-flow.md) as core design governance: connect work
   to north-star outcomes, follow prerequisite tasks, record discovered gaps and
   update milestones from accepted evidence when tasks move to DONE.
+- Enforce the [task progress checkpoint](docs/task-flow.md#task-size-and-progress-checkpoints):
+  after two batches without closing a criterion, reassess the approach or task
+  size before continuing; preserve scope and credit when splitting deliverables.
 - Do not copy private paths, accounts, forks, transcripts, usage history or
   personal configuration into examples. Preserve existing legal notices.
 - Link requirements to their rationale and examples. Check local paths,

@@ -49,6 +49,16 @@ explicit candidates until an adopter records and probes a digest.
 
 ## Delivery record
 
+Task-size guidance checked on 2026-09-21:
+
+- All 284 local file and section links across 30 Markdown documents resolve;
+  existing index routes and outbound navigation remain connected.
+- Reviewed mandatory progress checkpoints, handoff continuity, deliverable splits,
+  credit conservation and adoption-template fields. Added text is project-agnostic;
+  staged whitespace checks pass.
+- Executable examples are unchanged and were not rerun. No hosted job, external
+  workflow or tool installation was executed for this documentation change.
+
 Task flow documentation checked on 2026-09-20:
 
 - All 278 local file and section links across 30 Markdown documents resolve.
