@@ -4,6 +4,10 @@
 
 ## Work profiles
 
+[Task flow](task-flow.md) owns goal alignment, prerequisite traversal and task
+completion. Apply it with these staffing and effort rules; a larger task catalog
+does not authorize additional agents.
+
 These are platform-neutral project defaults, not executable account settings.
 
 | Profile | Staffing | Validation and review |
@@ -69,6 +73,10 @@ indicators. For Codex, see the [dated configuration hints](platforms/codex.md).
 Keep personal settings outside the shared repository.
 
 ## Handoff
+
+Include the current task, originating north star and prerequisite return path
+from [Task flow](task-flow.md#dependency-order-and-execution). Update the canonical
+milestone assessment when a task is accepted; keep the handoff a concise pointer.
 
 Capture objective, accepted scope, completed changes, current revision, commands
 already run, blockers, next bounded action and remaining budget if known.

@@ -20,6 +20,8 @@ appear only where needed to identify tools. Existing license notices remain inta
    [GitHub Actions template](templates/github-actions.md#native-job).
 6. Select [validation by impact](docs/validation.md#validation-matrix) and a
    [work profile](docs/agent-stewardship.md#work-profiles).
+7. Apply [Task flow](docs/task-flow.md) to connect north stars, milestones,
+   prerequisite tasks and accepted progress throughout agentic design work.
 
 Markdown examples are adoption templates, not installed workflows or active
 agent configuration. Replace declared placeholders before use. Athena does not
@@ -37,6 +39,7 @@ install compilers, change account settings or enable deployment.
 | Tests and release evidence | [Validation](docs/validation.md) | [Browser checks](docs/platforms/browser.md) |
 | Delivery and caches | [GitHub Actions](docs/platforms/github-actions.md) | [Optional Pages](templates/github-actions.md#pages-extension) |
 | Agent effort and delegation | [Stewardship](docs/agent-stewardship.md) | [Optional Codex hints](docs/platforms/codex.md) |
+| Agentic design and task flow | [Task flow](docs/task-flow.md) | [Milestones](templates/MILESTONES.md), [local flow](templates/TASKFLOW.MD), [tasks](templates/TASK.md) |
 | Connected, reusable knowledge | [Documentation](docs/documentation.md) | [Lessons](docs/lessons.md) |
 
 ## Adoption and updates

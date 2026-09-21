@@ -46,3 +46,10 @@ scope, permissions and recovery; avoid elaborate gates that do not address the
 change's risks. Prefer measurable acceptance over subjective grade loops.
 Connect each lesson to a [focused check](validation.md), and each agent
 assignment to a [bounded work record](../templates/WORK.md).
+
+## Goal-directed design
+
+Required: apply [Task flow](task-flow.md#core-design-governance) to keep agentic
+design tied to the intended end state. North stars define accepted outcomes;
+milestones connect them to dependency-linked tasks and evidence. Reassess scope
+when evidence changes, and update completion from accepted results.
